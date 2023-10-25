@@ -1,25 +1,25 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
+
+export const fetchGreeting = createAsyncThunk('greeting/fetchGreeting', async () => {
+  const response = await axios.get('http://localhost:3000/api/random_greeting');
+  return response.data.greeting;
+});
 
 const greetingSlice = createSlice({
   name: 'greeting',
   initialState: {
     greeting: '',
+    status: 'idle',
+    error: null,
   },
-  reducers: {
-    setGreeting: (state, action) => ({ ...state, greeting: action.payload }),
+  reducers: {},
+  extraReducers: (builder) => {
+    builder
+      .addCase(fetchGreeting.pending, (state) => ({ ...state, status: 'loading' }))
+      .addCase(fetchGreeting.fulfilled, (state, action) => ({ ...state, status: 'succeeded', greeting: action.payload }))
+      .addCase(fetchGreeting.rejected, (state, action) => ({ ...state, status: 'failed', error: action.error.message }));
   },
 });
-
-export const { setGreeting } = greetingSlice.actions;
-
-export const fetchGreeting = () => async (dispatch) => {
-  try {
-    const response = await axios.get('http://localhost:3000/api/random_greeting');
-    dispatch(setGreeting(response.data.greeting));
-  } catch (error) {
-    throw new Error('Failed to fetch greetings. Please try again later.');
-  }
-};
 
 export default greetingSlice.reducer;
