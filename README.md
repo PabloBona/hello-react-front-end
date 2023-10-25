@@ -11,17 +11,17 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Hello React Front-End](#about-project)
-  - [🛠 Project Requirements](#-project-requirements)
-  - [🚀 Getting Started](#-getting-started)
+  - [🛠 Project Requirements](#project-requirements)
+  - [🚀 Getting Started](#getting-started)
     - [💻 API Endpoints](#integration-with-hello-rails-back-end)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Run the Project](#run-the-project)
-  - [👥 Author](#-author)
-  - [🔭 Issues](#-issues)
-  - [🤝 Contributing](#-contributing)
-  - [⭐️ Show Your Support](#️-show-your-support)
-  - [📝 License](#-license)
+  - [👥 Author](#authors)
+  - [🔭 Issues](#issues)
+  - [🤝 Contributing](#contributing)
+  - [⭐️ Show Your Support](#️support)
+  - [📝 License](#license)
 
 <!-- PROJECT REQUIREMENTS -->
 
@@ -101,7 +101,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show Your Support <a name="support"></a>
+## ⭐️ Show Your Support <a name="️support"></a>
 
 If you find this project helpful, please consider starring the repository. Your support is greatly appreciated!
 
