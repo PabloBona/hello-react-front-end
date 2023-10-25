@@ -10,10 +10,10 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello React Front-End](#-hello-react-front-end-)
+- [📖 Hello React Front-End](#about-project)
   - [🛠 Project Requirements](#-project-requirements)
   - [🚀 Getting Started](#-getting-started)
-    - [💻 API Endpoints](#-api-endpoints)
+    - [💻 API Endpoints](#integration-with-hello-rails-back-end)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Run the Project](#run-the-project)
