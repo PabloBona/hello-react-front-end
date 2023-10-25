@@ -13,6 +13,7 @@
 - [📖 Hello React Front-End](#-hello-react-front-end-)
   - [🛠 Project Requirements](#-project-requirements)
   - [🚀 Getting Started](#-getting-started)
+    - [💻 API Endpoints](#-api-endpoints)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Run the Project](#run-the-project)
@@ -40,6 +41,13 @@
 ## 🚀 Getting Started <a name="getting-started"></a>
 
 To get the project up and running on your local machine, follow these steps.
+
+## 🔗 Integration with Hello Rails Back-End <a name="integration-with-hello-rails-back-end"></a>
+
+This front-end application is designed to work in conjunction with the [Hello Rails Back-End](https://github.com/PabloBona/hello-rails-back-end) project. The back-end project provides a server API, and this front-end application makes requests to `http://localhost:3000/api/greetings/random` to fetch random greetings. Ensure that the back-end server is running before using this front-end application.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Prerequisites
 
@@ -70,8 +78,6 @@ To run the project, execute the following command:
 ```sh
 npm start
 ```
-
-The React app will be accessible at `http://localhost:3000`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
