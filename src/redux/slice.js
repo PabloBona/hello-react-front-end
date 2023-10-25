@@ -18,7 +18,7 @@ export const fetchGreeting = () => async (dispatch) => {
     const response = await axios.get('http://localhost:3000/api/random_greeting');
     dispatch(setGreeting(response.data.greeting));
   } catch (error) {
-    console.error('Error fetching greeting:', error);
+    throw new Error('Failed to fetch greetings. Please try again later.');
   }
 };
 
