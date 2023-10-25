@@ -1,70 +1,108 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+  <h3><b>Hello React Front-End</b></h3>
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello React Front-End](#-hello-react-front-end-)
+  - [🛠 Project Requirements](#-project-requirements)
+  - [🚀 Getting Started](#-getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Run the Project](#run-the-project)
+  - [👥 Author](#-author)
+  - [🔭 Issues](#-issues)
+  - [🤝 Contributing](#-contributing)
+  - [⭐️ Show Your Support](#️-show-your-support)
+  - [📝 License](#-license)
 
-### `npm test`
+<!-- PROJECT REQUIREMENTS -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 Hello React Front-End <a name="about-project"></a>
 
-### `npm run build`
+*Hello React Front-End* is a React application that displays random greetings fetched from the Rails API endpoint. This project meets the following requirements:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Project Requirements <a name="project-requirements"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Create a React app called 'hello-react-front-end'.
+- Initialize the project with Git.
+- Create the `App` component with react-router.
+- Create the `Greeting` component that displays a greeting and set it up as a route in the `App` component.
+- Create a store, an action, and a reducer that connect to your API endpoint to get the random greeting.
+- Display the random greeting in your `Greeting` component.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started <a name="getting-started"></a>
 
-### `npm run eject`
+To get the project up and running on your local machine, follow these steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Before you begin, make sure you have the following prerequisites installed on your system:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node.js: You need Node.js to run the React application.
+- npm: npm is the package manager for JavaScript and comes with Node.js.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Setup
 
-## Learn More
+Clone this repository to your desired folder:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+git clone https://github.com/PabloBona/hello-react-front-end.git
+cd hello-react-front-end
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install dependencies:
 
-### Code Splitting
+```sh
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Run the Project
 
-### Analyzing the Bundle Size
+To run the project, execute the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```sh
+npm start
+```
 
-### Making a Progressive Web App
+The React app will be accessible at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
+## 👥 Author <a name="authors"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👤 **Pablo Bonasera**
+- GitHub: [@PabloBona](https://github.com/PabloBona)
+- LinkedIn: [Pablo Bonasera](https://www.linkedin.com/in/pablo-bonasera/)
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🔭 Issues <a name="issues"></a>
 
-### `npm run build` fails to minify
+Find a bug or have a feature request? [Open a new issue](https://github.com/PabloBona/hello-react-front-end/issues) here on GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/PabloBona/hello-react-front-end/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show Your Support <a name="support"></a>
+
+If you find this project helpful, please consider starring the repository. Your support is greatly appreciated!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/PabloBona/hello-react-front-end/blob/feature/add-react/LICENSE) file for details.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
